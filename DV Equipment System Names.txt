@@ -140,11 +140,11 @@ FISSION RODS
 	4.0
 	8.0
 	12.0
-	16.0
-	20.0
-	30.0
-	40.0
-	50.0
+	16.0						#Not Fittable on the ND-LIS Kitsune
+	20.0						#Not Fittable on the ND-LIS Kitsune
+	30.0						#Not Fittable on the ND-LIS Kitsune
+	40.0						#Not Fittable on the ND-LIS Kitsune
+	50.0						#Not Fittable on the ND-LIS Kitsune
 	
 ULTRACAPACITOR
 	500.0
