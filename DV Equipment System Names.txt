@@ -132,8 +132,8 @@ PROPELLANT STORAGE
 	15000.0
 	30000.0
 	50000.0
-	80000.0
-	200000.0
+	80000.0					#Not Fittable on the ND-LIS Kitsune
+	200000.0				#Not Fittable on the ND-LIS Kitsune
 	500000.0				#Fittable on AT225 and OCP ships only
 	
 FISSION RODS
