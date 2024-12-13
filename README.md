@@ -3,6 +3,9 @@ This repo aims to collect interesting and useful saves and other stuff for Delta
 ## Saves
 Everything save - contains all player-accessible ships, equipment, and astrogation locations. Contains 1.2 billion in cash and 2 million in insurance so you can experiment to your heart's content. For those worried, save does not grant achievements or leaderboards.
 
+## Text Files
+DV Equipment System Names - File used to list the system name of any desired equipment, with notes for any that are not obvious. Useful mainly to modders or those looking into save editing
+
 ## How to Use
 Saves:
 1. Download the .dv file.
