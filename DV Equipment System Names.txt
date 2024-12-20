@@ -155,3 +155,26 @@ TURBINES
 	100.0
 	200.0
 	500.0
+
+HARDPOINT SLOT NAMES
+	middleLeft				#Left low stress hardpoint, used on K225 (BB, modified)
+	middleRight				#Right low stress hardpoint, used on K225 (BB, modified)
+	leftBay1				#Front left docking bay, used on K225
+	rightBay1				#Front right docking bay, used on K225
+	leftBay2				#Middle left docking bay, used on K225
+	rightBay2				#Middle right docking bay, used on K225
+	leftBay3				#Rear left docking bay, used on K225 (BB)
+	rightBay3				#Rear right docking bay, used on K225 (BB)
+	left					#Left low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24)
+	right					#Right low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24)
+	leftBack				#Rear left hardpoint, used on Cothon-212 (213,211,217), K44
+	rightBack				#Rear right hardpoint, used on Cothon-212 (213,211,217), K44
+	middleLeft				#Front Left Low-stress hardpoint, used on Eagle (Peacock, Pelican, Bald, Vulture), OCP
+	middleRight				#Front Right Low-stress hardpoint, used on Eagle (Peacock, Pelican, Bald, Vulture), OCP
+	leftDrone				#Left drone mount, used on Eagle (Peacock, Pelican, Bald)
+	rightDrone				#Right drone mount, used on Eagle (Peacock, Pelican, Bald)
+	main					#High-Stress Hardpoint, used on Vulture, EIME, K37 (KX37,KR37,KTA24)
+	mainLow					#Low-Stress Spinal Hardpoint, used on Kitsune
+	mainLeft				#Left High-Stress Hardpoint, used on OCP
+	mainRight				#Right High-Stress Hardpoint. used on OCP
+	
