@@ -169,8 +169,8 @@ HARDPOINT SLOT NAMES
 	right					#Right low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24), Eagle (Peacock, Pelican, Vulture)
 	leftBack				#Rear left hardpoint, used on Cothon-212 (213,211,217), K44
 	rightBack				#Rear right hardpoint, used on Cothon-212 (213,211,217), K44
-	middleLeft				#Front Left Low-stress hardpoint, used on Bald Eagle, OCP
-	middleRight				#Front Right Low-stress hardpoint, used on Bald Eagle, OCP
+	middleLeft				#Front Left Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
+	middleRight				#Front Right Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
 	leftDrone				#Left drone mount, used on Eagle (Peacock, Pelican, Bald)
 	rightDrone				#Right drone mount, used on Eagle (Peacock, Pelican, Bald)
 	main					#High-Stress Hardpoint, used on Vulture, EIME, K37 (KX37,KR37,KTA24)
