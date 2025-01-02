@@ -116,7 +116,7 @@ DRIVER AMMO STORAGE
 	1000.0
 	2000.0
 	5000.0
-	10000.0
+	10000.0					#Not Fittable on the ND-LIS Kitsune
 	20000.0					#Fittable on Cothon AT225, and OCP ships only
 	50000.0					#Fittable on AT225 and OCP ships only
 	
@@ -124,7 +124,7 @@ NANODRONE COMPONENTS STORAGE
 	0.0
 	1000.0
 	5000.0
-	10000.0
+	10000.0					#Not Fittable on the ND-LIS Kitsune
 	20000.0					#Fittable on Cothon AT225, and OCP ships only
 	50000.0					#Fittable on AT225 and OCP ships only
 	
