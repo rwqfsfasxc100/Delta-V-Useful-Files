@@ -42,7 +42,9 @@ func _init(modLoader = ModLoader):
 	if modDependancy.has("Example-Mod.zip"):
 		l("Example mod loaded")
 	# Both the options and mod dependancies can be put together if you want to require both to be true
-	
+
+	# Loads translation file. For this example, the english translation file is used. 
+	updateTL("i18n/en.txt", "|")
 	
 # Do stuff on ready
 # At this point all AutoLoads are available and the game is loaded
