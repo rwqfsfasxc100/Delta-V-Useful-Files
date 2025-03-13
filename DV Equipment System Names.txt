@@ -3,8 +3,8 @@ TORCHES
 	SYSTEM_MAIN_ENGINE_NMPD
 	SYSTEM_MAIN_ENGINE_NPMP
 	SYSTEM_MAIN_ENGINE_NDNTR
-	SYSTEM_MAIN_ENGINE_ZURBIN		#TSUKUYUOMI & PHAGE MAIN DRIVE
-	SYSTEM_MAIN_ENGINE_PMS			#PHAGE RCS
+	SYSTEM_MAIN_ENGINE_ZURBIN		# TSUKUYUOMI & PHAGE MAIN DRIVE
+	SYSTEM_MAIN_ENGINE_PMS			# PHAGE RCS
 	SYSTEM_MAIN_ENGINE_K44
 	SYSTEM_MAIN_ENGINE_BWMT535
 	SYSTEM_MAIN_ENGINE_PNTR
@@ -17,73 +17,73 @@ RCS THRUSTERS
 	SYSTEM_THRUSTER_K69V
 	SYSTEM_THRUSTER_MA150HO
 	SYSTEM_THRUSTER_MA350HO
-	SYSTEM_THRUSTER_EIT			#EI ION
+	SYSTEM_THRUSTER_EIT			# EI ION
 	SYSTEM_THRUSTER_AGILE
-	SYSTEM_THRUSTER_AGILER			#UNUSED AGILE UPTUNE
+	SYSTEM_THRUSTER_AGILER			# UNUSED AGILE UPTUNE
 	SYSTEM_THRUSTER_NDSTR
 	SYSTEM_THRUSTER_NDVTT
-	SYSTEM_THRUSTER_GHET			#NAGHETS
-	SYSTEM_THRUSTER_TWIST			#UNKNOWN SYSTEM THRUSTER
+	SYSTEM_THRUSTER_GHET			# NAGHETS
+	SYSTEM_THRUSTER_TWIST			# UNKNOWN SYSTEM THRUSTER
 	
 CARGO BAY
-	SYSTEM_CARGO_BAFFLES			#BAFFLES
-	SYSTEM_CARGO_MPU			#NAKAMURA
-	SYSTEM_CARGO_MPUFSO			#RUSATOM-ANTONOFF
-	SYSTEM_CARGO_MPUSML			#MITSUDAYA-STARBUS
-	SYSTEM_CARGO_MPU_FAB			#VOYAGER
+	SYSTEM_CARGO_BAFFLES			# BAFFLES
+	SYSTEM_CARGO_MPU			# NAKAMURA
+	SYSTEM_CARGO_MPUFSO			# RUSATOM-ANTONOFF
+	SYSTEM_CARGO_MPUSML			# MITSUDAYA-STARBUS
+	SYSTEM_CARGO_MPU_FAB			# VOYAGER
 	
 AUX UNITS
-	SYSTEM_AUX_MPD				#MPD5035
-	SYSTEM_AUX_MPD_MK2			#EIBFG MkIV Big Furnace Generator
-	SYSTEM_AUX_MPD_MK3			#MPI Town-class MPDG
-	SYSTEM_AUX_SMES				#NDAPS
-	SYSTEM_AUX_SMES_MK2			#MPI Town-class storage
-	SYSTEM_AUX_SMES_MK3			#EIUP MkII Unlimited Power
+	SYSTEM_AUX_MPD				# MPD5035
+	SYSTEM_AUX_MPD_MK2			# EIBFG MkIV Big Furnace Generator
+	SYSTEM_AUX_MPD_MK3			# MPI Town-class MPDG
+	SYSTEM_AUX_SMES				# NDAPS
+	SYSTEM_AUX_SMES_MK2			# MPI Town-class storage
+	SYSTEM_AUX_SMES_MK3			# EIUP MkII Unlimited Power
 	
 ANY HARDPOINT
-	SYSTEM_MWG				#Microwave Generator
-	SYSTEM_CL150				#CL-150
-	SYSTEM_CL600P				#CL-600P
-	SYSTEM_EMD14				#EMD-14 mass driver
-	SYSTEM_EMD17RF				#ERFMD-17 mass driver
-	SYSTEM_RAILTOR				#MPI Railgun MkI
-	SYSTEM_DND_TS				#MPI Tug drones
-	SYSTEM_DND_HAUL				#MLF Haul Drones
-	SYSTEM_DND_FIX				#OME Maintenance drones
-	SYSTEM_EINAT				#EI Kzinti Lesson Mk II
-	SYSTEM_NANI				#NANI
-	SYSTEM_SALVAGE_ARM			#AR-1500 Manipulator
-	SYSTEM_PDMWG				#Point Defence Microwave Generator
-	SYSTEM_PDMWG-L				#Point Defence Microwave Generator - Left Hardpoint
-	SYSTEM_PDMWG-R				#Point Defence Microwave Generator - Right Hardpoint
-	SYSTEM_EXSTORAGE-L			#THI Cargo Container - Left Hardpoint
-	SYSTEM_EXSTORAGE-R			#THI Cargo Container - Right Hardpoint
-	SYSTEM_CLAIM-L				#B8 Claim Beacon - Left Hardpoint
-	SYSTEM_CLAIM-R				#B8 Claim Beacon - Right Hardpoint
-	SYSTEM_ACTEMD14				#AEMD-14 mass driver
-	SYSTEM_ACL200P				#CL-200AP
-	SYSTEM_SCOOP-R				#NT Mining Companion - Left Hardpoint
-	SYSTEM_SCOOP-L				#NT Mining Companion - Right Hardpoint
-	SYSTEM_HUNK-R				#External Impact  - Right Hardpoint
-	SYSTEM_HUNK-L				#External Impact Absorber - Left Hardpoint
-	SYSTEM_SYNCHRO-L			#SPC Gungnir - Left Hardpoint
-	SYSTEM_SYNCHRO-R			#SPC Gungnir - Right Hardpoint
-	SYSTEM_EXMONO-L				#THI Monocargo Container - Left Hardpoint
-	SYSTEM_EXMONO-R				#THI Monocargo Container - Right Hardpoint
-	SYSTEM_PDT-L				#NDPT-4205 Point Defence Turret - Left Hardpoint
-	SYSTEM_PDT-R				#NDPT-4205 Point Defence Turret - Right Hardpoint
-	SYSTEM_PDT				#NDPT-4205 Point Defence Turret
-	SYSTEM_IROH				#Tetsuo HMX-2000I
-	SYSTEM_PDTL				#Point Defence Laser Turret
-	SYSTEM_PDTL-L				#Point Defence Laser Turret - Left Hardpoint
-	SYSTEM_PDTL-R				#Point Defence Laser Turret - Right Hardpoint
+	SYSTEM_MWG				# Microwave Generator
+	SYSTEM_CL150				# CL-150
+	SYSTEM_CL600P				# CL-600P
+	SYSTEM_EMD14				# EMD-14 mass driver
+	SYSTEM_EMD17RF				# ERFMD-17 mass driver
+	SYSTEM_RAILTOR				# MPI Railgun MkI
+	SYSTEM_DND_TS				# MPI Tug drones
+	SYSTEM_DND_HAUL				# MLF Haul Drones
+	SYSTEM_DND_FIX				# OME Maintenance drones
+	SYSTEM_EINAT				# EI Kzinti Lesson Mk II
+	SYSTEM_NANI				# NANI
+	SYSTEM_SALVAGE_ARM			# AR-1500 Manipulator
+	SYSTEM_PDMWG				# Point Defence Microwave Generator
+	SYSTEM_PDMWG-L				# Point Defence Microwave Generator - Left Hardpoint
+	SYSTEM_PDMWG-R				# Point Defence Microwave Generator - Right Hardpoint
+	SYSTEM_EXSTORAGE-L			# THI Cargo Container - Left Hardpoint
+	SYSTEM_EXSTORAGE-R			# THI Cargo Container - Right Hardpoint
+	SYSTEM_CLAIM-L				# B8 Claim Beacon - Left Hardpoint
+	SYSTEM_CLAIM-R				# B8 Claim Beacon - Right Hardpoint
+	SYSTEM_ACTEMD14				# AEMD-14 mass driver
+	SYSTEM_ACL200P				# CL-200AP
+	SYSTEM_SCOOP-R				# NT Mining Companion - Left Hardpoint
+	SYSTEM_SCOOP-L				# NT Mining Companion - Right Hardpoint
+	SYSTEM_HUNK-R				# External Impact  - Right Hardpoint
+	SYSTEM_HUNK-L				# External Impact Absorber - Left Hardpoint
+	SYSTEM_SYNCHRO-L			# SPC Gungnir - Left Hardpoint
+	SYSTEM_SYNCHRO-R			# SPC Gungnir - Right Hardpoint
+	SYSTEM_EXMONO-L				# THI Monocargo Container - Left Hardpoint
+	SYSTEM_EXMONO-R				# THI Monocargo Container - Right Hardpoint
+	SYSTEM_PDT-L				# NDPT-4205 Point Defence Turret - Left Hardpoint
+	SYSTEM_PDT-R				# NDPT-4205 Point Defence Turret - Right Hardpoint
+	SYSTEM_PDT				# NDPT-4205 Point Defence Turret
+	SYSTEM_IROH				# Tetsuo HMX-2000I
+	SYSTEM_PDTL				# Point Defence Laser Turret			--UNUSED
+	SYSTEM_PDTL-L				# Point Defence Laser Turret - Left Hardpoint	--UNUSED
+	SYSTEM_PDTL-R				# Point Defence Laser Turret - Right Hardpoint	--UNUSED
 	
 HUDS
-	SYSTEM_NONE					#Empty
+	SYSTEM_NONE				#Empty
 	SYSTEM_HUD_TNTRL
 	SYSTEM_HUD_PROSPECTOR
 	SYSTEM_HUD_PROSPECTOR_METRIC
-	SYSTEM_HUD_PROSPECTOR_BALD		#Racing HUD
+	SYSTEM_HUD_PROSPECTOR_BALD		# Racing HUD
 	SYSTEM_HUD_EIME
 	SYSTEM_HUD_HAL
 	SYSTEM_HUD_AT225
@@ -91,60 +91,60 @@ HUDS
 	SYSTEM_HUD_KITSUNE
 	
 LIDARS
-	SYSTEM_LIDAR_RADAR			#MLF RADAR
-	SYSTEM_LIDAR_DOPPLER			#IRL-360
-	SYSTEM_LIDAR_DOPPLER_CONE		#IRL-30-BF
-	SYSTEM_LIDAR_DOPPLER_HIRES		#Runasimi High-Res LIDAR
-	SYSTEM_LIDAR_OPA			#Phased Array LIDAR
+	SYSTEM_LIDAR_RADAR			# MLF RADAR
+	SYSTEM_LIDAR_DOPPLER			# IRL-360
+	SYSTEM_LIDAR_DOPPLER_CONE		# IRL-30-BF
+	SYSTEM_LIDAR_DOPPLER_HIRES		# Runasimi High-Res LIDAR
+	SYSTEM_LIDAR_OPA			# Phased Array LIDAR
 	
 AUTOPILOTS
-	SYSTEM_AUTOPILOT_NONE			#Empty
-	SYSTEM_AUTOPILOT_MK1			#MLF Autopilot
-	SYSTEM_AUTOPILOT_MK2			#MA-337 Autopilot
-	SYSTEM_AUTOPILOT_MK3			#NDCI Autopilot
-	SYSTEM_AUTOPILOT_MK4			#EIAA Autopilot
-	SYSTEM_AUTOPILOT_RTYPE			#ER-42 Autopilot
+	SYSTEM_AUTOPILOT_NONE			# Empty
+	SYSTEM_AUTOPILOT_MK1			# MLF Autopilot
+	SYSTEM_AUTOPILOT_MK2			# MA-337 Autopilot
+	SYSTEM_AUTOPILOT_MK3			# NDCI Autopilot
+	SYSTEM_AUTOPILOT_MK4			# EIAA Autopilot
+	SYSTEM_AUTOPILOT_RTYPE			# ER-42 Autopilot
 	
 RECON DRONES
-	SYSTEM_RD_STANDARD			#Obonto USV-R
-	SYSTEM_RD_GRAVIMETRIC			#Runasimi Gravimetric USV
-	SYSTEM_RD_SPECTROMETER			#Obonto USV-D Microseismic Series
-	SYSTEM_RD_GUIDING			#Obonto USV-GOT
+	SYSTEM_RD_STANDARD			# Obonto USV-R
+	SYSTEM_RD_GRAVIMETRIC			# Runasimi Gravimetric USV
+	SYSTEM_RD_SPECTROMETER			# Obonto USV-D Microseismic Series
+	SYSTEM_RD_GUIDING			# Obonto USV-GOT
 	
 DRIVER AMMO STORAGE
 	0.0
 	1000.0
 	2000.0
 	5000.0
-	10000.0					#Not Fittable on the ND-LIS Kitsune
-	20000.0					#Fittable on Cothon AT225, and OCP ships only
-	50000.0					#Fittable on AT225 and OCP ships only
+	10000.0					# Not Fittable on the ND-LIS Kitsune
+	20000.0					# Fittable on Cothon AT225, and OCP ships only
+	50000.0					# Fittable on AT225 and OCP ships only
 	
 NANODRONE COMPONENTS STORAGE
 	0.0
 	1000.0
 	5000.0
-	10000.0					#Not Fittable on the ND-LIS Kitsune
-	20000.0					#Fittable on Cothon AT225, and OCP ships only
-	50000.0					#Fittable on AT225 and OCP ships only
+	10000.0					# Not Fittable on the ND-LIS Kitsune
+	20000.0					# Fittable on Cothon AT225, and OCP ships only
+	50000.0					# Fittable on AT225 and OCP ships only
 	
 PROPELLANT STORAGE
 	15000.0
 	30000.0
 	50000.0
-	80000.0					#Not Fittable on the ND-LIS Kitsune
-	200000.0				#Not Fittable on the ND-LIS Kitsune
-	500000.0				#Fittable on AT225 and OCP ships only
+	80000.0					# Not Fittable on the ND-LIS Kitsune
+	200000.0				# Not Fittable on the ND-LIS Kitsune
+	500000.0				# Fittable on AT225 and OCP ships only
 	
 FISSION RODS
 	4.0
 	8.0
 	12.0
-	16.0					#Not Fittable on the ND-LIS Kitsune
-	20.0					#Not Fittable on the ND-LIS Kitsune
-	30.0					#Not Fittable on the ND-LIS Kitsune
-	40.0					#Not Fittable on the ND-LIS Kitsune
-	50.0					#Not Fittable on the ND-LIS Kitsune
+	16.0					# Not Fittable on the ND-LIS Kitsune
+	20.0					# Not Fittable on the ND-LIS Kitsune
+	30.0					# Not Fittable on the ND-LIS Kitsune
+	40.0					# Not Fittable on the ND-LIS Kitsune
+	50.0					# Not Fittable on the ND-LIS Kitsune
 	
 ULTRACAPACITOR
 	500.0
@@ -157,24 +157,43 @@ TURBINES
 	500.0
 
 HARDPOINT SLOT NAMES
-	middleLeft				#Left low stress hardpoint, used on K225 (BB, modified)
-	middleRight				#Right low stress hardpoint, used on K225 (BB, modified)
-	leftBay1				#Front left docking bay, used on K225
-	rightBay1				#Front right docking bay, used on K225
-	leftBay2				#Middle left docking bay, used on K225
-	rightBay2				#Middle right docking bay, used on K225
-	leftBay3				#Rear left docking bay, used on K225 (BB)
-	rightBay3				#Rear right docking bay, used on K225 (BB)
-	left					#Left low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24), Eagle (Peacock, Pelican, Vulture)
-	right					#Right low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24), Eagle (Peacock, Pelican, Vulture)
-	leftBack				#Rear left hardpoint, used on Cothon-212 (213,211,217), K44
-	rightBack				#Rear right hardpoint, used on Cothon-212 (213,211,217), K44
-	middleLeft				#Front Left Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
-	middleRight				#Front Right Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
-	leftDrone				#Left drone mount, used on Eagle (Peacock, Pelican, Bald)
-	rightDrone				#Right drone mount, used on Eagle (Peacock, Pelican, Bald)
-	main					#High-Stress Hardpoint, used on Vulture, EIME, K37 (KX37,KR37,KTA24)
-	mainLow					#Low-Stress Spinal Hardpoint, used on Kitsune
-	mainLeft				#Left High-Stress Hardpoint, used on OCP
-	mainRight				#Right High-Stress Hardpoint. used on OCP
+	leftBay1				# Front left docking bay, used on K225
+	rightBay1				# Front right docking bay, used on K225
+	leftBay2				# Middle left docking bay, used on K225
+	rightBay2				# Middle right docking bay, used on K225
+	leftBay3				# Rear left docking bay, used on K225 (BB)
+	rightBay3				# Rear right docking bay, used on K225 (BB)
+	left					# Left low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24), Eagle (Peacock, Pelican, Vulture)
+	right					# Right low-stress hardpoint, used on Cothon-212 (213,211,217), EIME, K37 (K44,KX37,KR37,KTA24), Eagle (Peacock, Pelican, Vulture)
+	leftBack				# Rear left hardpoint, used on Cothon-212 (213,211,217), K44
+	rightBack				# Rear right hardpoint, used on Cothon-212 (213,211,217), K44
+	middleLeft				# Front Left Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
+	middleRight				# Front Right Low-stress hardpoint, used on Bald Eagle, OCP, K225 (BB, modified)
+	leftDrone				# Left drone mount, used on Eagle (Peacock, Pelican, Bald)
+	rightDrone				# Right drone mount, used on Eagle (Peacock, Pelican, Bald)
+	main					# High-Stress Hardpoint, used on Vulture, EIME, K37 (KX37,KR37,KTA24)
+	mainLow					# Low-Stress Spinal Hardpoint, used on Kitsune
+	mainLeft				# Left High-Stress Hardpoint, used on OCP
+	mainRight				# Right High-Stress Hardpoint. used on OCP
 	
+SHIP NAMES
+	TRTL					# K37
+	TRTL-L					# KTA24
+	TRTL-R					# KR37
+	TRTL-LCB				# KX37
+	TRTL-44					# K44
+	PROSPECTOR				# Eagle Prospector
+	PROSPECTOR-Fat				# Pelican Prospector
+	PROSPECTOR-Lux				# Peacock Prospector
+	PROSPECTOR-VP				# Vulture Prospector
+	PROSPECTOR-Bald				# Bald Eagle
+	COTHON					# Cothon-212
+	COTHON-Lnd				# Cothon-213
+	COTHON-CHK				# Cothon-211
+	COTHON-V				# Cothon-217
+	ATK225					# AT-K225
+	ATK225-B				# AT-K225-BB
+	ATK225-R				# AT-K225 (modified)
+	EIME					# Model E
+	kitsune					# ND-LIS Kitsune
+	ocp-209					# OCP-209
