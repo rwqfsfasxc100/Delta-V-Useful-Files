@@ -4,7 +4,8 @@ extends Node
 # Mods are loaded from lowest to highest priority, default is 0
 const MOD_PRIORITY = 0
 # Name of the mod, used for writing to the logs
-const MOD_NAME = "Example Mod v.1.0.0"
+const MOD_NAME = "Example Mod"
+const MOD_VERSION = "1.0.0"
 # Path of the mod folder, automatically generated on runtime
 var modPath:String = get_script().resource_path.get_base_dir() + "/"
 # Required var for the replaceScene() func to work
@@ -68,17 +69,22 @@ func loadSettings():
 # Helper script to load translations using csv format
 # `path` is the path to the transalation file
 # `delim` is the symbol used to seperate the values
+# `useRelativePath` setting it to false uses a `res://` relative path instead of relative to the file
+# `fullLogging` setting it to false reduces the number of logs written to only display the number of translations made
 # example usage: updateTL("i18n/translation.txt", "|")
-func updateTL(path:String, delim:String = ","):
-	path = str(modPath + path)
+func updateTL(path:String, delim:String = ",", useRelativePath:bool = true, fullLogging:bool = true):
+	if useRelativePath:
+		path = str(modPath + path)
 	l("Adding translations from: %s" % path)
 	var tlFile:File = File.new()
 	tlFile.open(path, File.READ)
 
 	var translations := []
-
+	
+	var translationCount = 0
 	var csvLine := tlFile.get_line().split(delim)
-	l("Adding translations as: %s" % csvLine)
+	if fullLogging:
+		l("Adding translations as: %s" % csvLine)
 	for i in range(1, csvLine.size()):
 		var translationObject := Translation.new()
 		translationObject.locale = csvLine[i]
@@ -91,14 +97,27 @@ func updateTL(path:String, delim:String = ","):
 			var translationID := csvLine[0]
 			for i in range(1, csvLine.size()):
 				translations[i - 1].add_message(translationID, csvLine[i].c_unescape())
-			l("Added translation: %s" % csvLine)
+			if fullLogging:
+				l("Added translation: %s" % csvLine)
+			translationCount += 1
 
 	tlFile.close()
 
 	for translationObject in translations:
+		var pms = translationObject.get_message_list()
+		var pmL = []
+		for m in pms:
+			var pt = translationObject.get_message(m)
+			pmL.append([m,pt])
+		var tr = TranslationServer.translate(pms[0])
 		TranslationServer.add_translation(translationObject)
-
-	l("Translations Updated")
+		var pms2 = translationObject.get_message_list()
+		var tr2 = TranslationServer.translate(pms[0])
+		
+		
+		
+		pass
+	l("%s Translations Updated" % translationCount)
 
 
 # Helper function to extend scripts
@@ -144,8 +163,8 @@ func loadDLC():
 
 
 # Func to print messages to the logs
-func l(msg:String, title:String = MOD_NAME):
-	Debug.l("[%s]: %s" % [title, msg])
+func l(msg:String, title:String = MOD_NAME, version:String = MOD_VERSION):
+	Debug.l("[%s V%s]: %s" % [title, version, msg])
 	
 	
 # Func to scan the mods folder and return any files. Useful for checking dependancies. 
