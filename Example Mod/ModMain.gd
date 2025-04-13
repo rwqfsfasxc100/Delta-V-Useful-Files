@@ -22,7 +22,6 @@ func _init(modLoader = ModLoader):
 	l("Initializing DLC")
 	
 # Modify Settings.gd first so we can load config and DLC
-	installScriptExtension("Settings.gd")
 	loadSettings()
 	
 	loadDLC() # preloads DLC as things may break if this isn't done
@@ -57,6 +56,7 @@ func _ready():
 # You may want to replace any "Example" text with your own identifier to make it unique
 # Check the example Settings.gd file for how to setup that side of it
 func loadSettings():
+	installScriptExtension("Settings.gd")
 	l(MOD_NAME + ": Loading mod settings")
 	var settings = load("res://Settings.gd").new()
 	settings.loadExampleFromFile()
