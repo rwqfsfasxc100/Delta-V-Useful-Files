@@ -27,18 +27,18 @@ var ConfigFile = ConfigFile.new()
 func _ready():
 	var dir = Directory.new()
 	dir.make_dir("user://cfg")
-	loadExampleModFromFile()
-	saveExampleModToFile()
+	load_ExampleMod_FromFile()
+	save_ExampleMod_ToFile()
 
 
-func saveExampleModToFile():
+func save_ExampleMod_ToFile():
 	for section in ExampleMod:
 		for key in ExampleMod[section]:
 			ConfigFile.set_value(section, key, ExampleMod[section][key])
 	ConfigFile.save(ConfigPath)
 
 
-func loadExampleModFromFile():
+func load_ExampleMod_FromFile():
 	var error = ConfigFile.load(ConfigPath)
 	if error != OK:
 		Debug.l("Example Mod: Error loading settings %s" % error)
