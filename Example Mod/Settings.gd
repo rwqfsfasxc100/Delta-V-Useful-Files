@@ -52,7 +52,7 @@ func load_ExampleMod_FromFile():
 func loadKeymapFromConfig():
 	for action_name in ExampleMod.input:
 		var addAction = true
-		for m in actions:
+		for m in InputMap.get_actions():
 			if m == action_name:
 				addAction = false
 		if addAction:
