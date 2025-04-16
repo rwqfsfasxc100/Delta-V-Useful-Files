@@ -59,9 +59,9 @@ func loadSettings():
 	installScriptExtension("Settings.gd")
 	l(MOD_NAME + ": Loading mod settings")
 	var settings = load("res://Settings.gd").new()
-	settings.loadExampleFromFile()
-	settings.saveExampleToFile()
-	modConfig = settings.ExampleConfig
+	settings.load_Example_FromFile()
+	settings.save_Example_ToFile()
+	modConfig = settings.Example
 	l(MOD_NAME + ": Current settings: %s" % modConfig)
 	settings.queue_free()
 	l(MOD_NAME + ": Finished loading settings")
