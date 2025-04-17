@@ -46,10 +46,10 @@ func load_ExampleMod_FromFile():
 	for section in ExampleMod:
 		for key in ExampleMod[section]:
 			ExampleMod[section][key] = CfgFile.get_value(section, key, ExampleMod[section][key])
-	loadKeymapFromConfig()
+	loadKeymapsFromConfig()
 
 # Keybind setting handlers
-func loadKeymapFromConfig():
+func loadKeymapsFromConfig():
 	for action_name in ExampleMod.input:
 		var addAction = true
 		for m in InputMap.get_actions():
