@@ -3,18 +3,18 @@ extends Node
 var areModsEnabled = true
 
 var addedMods = [
-		"res://ModMenu/ModMain.gd",
-		"res://HevLib/ModMain.gd",
-		"res://No Simulation Hex/ModMain.gd",
+#		"res://ModMenu/ModMain.gd",
+#		"res://HevLib/ModMain.gd",
+#		"res://No Simulation Hex/ModMain.gd",
 #		"res://DerelictDelights/ModMain.gd",
 #		"res://IndustriesOfEnceladusRevamp/ModMain.gd",
 #		"res://Better Recon Drones/ModMain.gd",
 #		"res://NTCED Parts Pack/ModMain.gd",
-		"res://Remove Ring Restrictions/ModMain.gd",
+#		"res://Remove Ring Restrictions/ModMain.gd",
 #		"res://SaveEdit/ModMain.gd",
 #		"res://WikiEventTest/ModMain.gd",
 #		"res://AutoTurret/ModMain.gd",
-		"res://RingActivity/ModMain.gd",
+#		"res://RingActivity/ModMain.gd",
 #		"res://LumaEdge/ModMain.gd",
 #		"res://NDCI-mk2/ModMain.gd",
 #		"res://Dwarf Crew/ModMain.gd",
@@ -24,7 +24,7 @@ var addedMods = [
 #		"res://PilotZoom/ModMain.gd",
 #		"res://No Crew Portraits/ModMain.gd",
 #		"res://Nothing Slider/ModMain.gd",
-		"res://DeKanban/ModMain.gd",
+#		"res://DeKanban/ModMain.gd",
 	]
 
 const is_debugged = true
