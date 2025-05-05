@@ -104,19 +104,7 @@ func updateTL(path:String, delim:String = ",", useRelativePath:bool = true, full
 	tlFile.close()
 
 	for translationObject in translations:
-		var pms = translationObject.get_message_list()
-		var pmL = []
-		for m in pms:
-			var pt = translationObject.get_message(m)
-			pmL.append([m,pt])
-		var tr = TranslationServer.translate(pms[0])
 		TranslationServer.add_translation(translationObject)
-		var pms2 = translationObject.get_message_list()
-		var tr2 = TranslationServer.translate(pms[0])
-		
-		
-		
-		pass
 	l("%s Translations Updated" % translationCount)
 
 
