@@ -21,8 +21,8 @@ var ExampleMod = {
 
 # The config file name. Make sure you set something unique
 # Config is set to the cfg folder to make it easy to find
-var ConfigPath = "user://cfg/ExampleMod.cfg"
-var CfgFile = ConfigFile.new()
+var ExampleMod_ConfigPath = "user://cfg/ExampleMod.cfg"
+var ExampleMod_CfgFile = ConfigFile.new()
 
 func _ready():
 	var dir = Directory.new()
@@ -34,18 +34,18 @@ func _ready():
 func save_ExampleMod_ToFile():
 	for section in ExampleMod:
 		for key in ExampleMod[section]:
-			CfgFile.set_value(section, key, ExampleMod[section][key])
-	CfgFile.save(ConfigPath)
+			ExampleMod_CfgFile.set_value(section, key, ExampleMod[section][key])
+	ExampleMod_CfgFile.save(ExampleMod_ConfigPath)
 
 
 func load_ExampleMod_FromFile():
-	var error = CfgFile.load(ConfigPath)
+	var error = ExampleMod_CfgFile.load(ExampleMod_ConfigPath)
 	if error != OK:
 		Debug.l("Example Mod: Error loading settings %s" % error)
 		return 
 	for section in ExampleMod:
 		for key in ExampleMod[section]:
-			ExampleMod[section][key] = CfgFile.get_value(section, key, ExampleMod[section][key])
+			ExampleMod[section][key] = ExampleMod_CfgFile.get_value(section, key, ExampleMod[section][key])
 	loadKeymapsFromConfig()
 
 # Keybind setting handlers
